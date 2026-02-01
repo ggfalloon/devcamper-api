@@ -18,6 +18,8 @@ const { connect } = require('mongoose');
 
 const app = express();
 
+app.set('query parser', 'extended');
+
 // Body Parser
 app.use(express.json());
 
