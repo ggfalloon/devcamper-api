@@ -26,9 +26,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -49,9 +49,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/6975141bbc52800064a0bf6c",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/6975141bbc52800064a0bf6c",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -89,9 +89,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -135,9 +135,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/6975141bbc52800064a0bf6c",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/6975141bbc52800064a0bf6c",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -159,9 +159,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/radius/02118/100",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/radius/02118/100",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -192,9 +192,9 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/1",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/1",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -239,9 +239,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/photo",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/photo",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -270,9 +270,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/courses",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/courses",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -293,9 +293,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/courses",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/courses",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -318,9 +318,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/courses/5d725c84c4ded7bcb480eaa0",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/courses/5d725c84c4ded7bcb480eaa0",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -358,9 +358,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/5d713a66ec8f2b88b8f830b8/courses",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/5d713a66ec8f2b88b8f830b8/courses",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -399,9 +399,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/courses/5d725c84c4ded7bcb480eaa0",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/courses/5d725c84c4ded7bcb480eaa0",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -439,9 +439,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/courses/5d725c84c4ded7bcb480eaa0",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/courses/5d725c84c4ded7bcb480eaa0",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -491,9 +491,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/register",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/register",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -544,9 +544,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/login",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/login",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -593,9 +593,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/me",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/me",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -639,9 +639,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/forgotpassword",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/forgotpassword",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -686,9 +686,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/resetpassword/d421054c7fc3efcc3bbc2b2ad383c1357d8924cf",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/resetpassword/d421054c7fc3efcc3bbc2b2ad383c1357d8924cf",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -747,9 +747,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/updatepassword",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/updatepassword",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -793,9 +793,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/updatedetails",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/updatedetails",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -852,9 +852,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/updatepassword",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/updatepassword",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -902,9 +902,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/auth/logout",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/auth/logout",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -937,9 +937,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/users",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/users",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -966,9 +966,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/users/5c8a1d5b0190b214360dc038",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/users/5c8a1d5b0190b214360dc038",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1005,9 +1005,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/users/",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/users/",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1044,9 +1044,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/users/5c8a1d5b0190b214360dc038",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/users/5c8a1d5b0190b214360dc038",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1083,9 +1083,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/users/5c8a1d5b0190b214360dc038",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/users/5c8a1d5b0190b214360dc038",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1119,9 +1119,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/reviews",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/reviews",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1148,9 +1148,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/reviews",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/reviews",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1179,9 +1179,9 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "{{URL}}/api/v1/reviews/1",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/reviews/1",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1238,9 +1238,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/reviews",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/bootcamps/5d725a1b7b292f5f8ceff788/reviews",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1285,9 +1285,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/reviews/699897a3f81d01077c0dcbef",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/reviews/699897a3f81d01077c0dcbef",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
@@ -1332,9 +1332,9 @@
               }
             },
             "url": {
-              "raw": "{{URL}}/api/v1/reviews/699897a3f81d01077c0dcbef",
+              "raw": "https://devcamper-api-g56l.onrender.com/api/v1/reviews/699897a3f81d01077c0dcbef",
               "host": [
-                "{{URL}}"
+                "https://devcamper-api-g56l.onrender.com"
               ],
               "path": [
                 "api",
