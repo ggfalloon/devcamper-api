@@ -4,7 +4,7 @@
   "description": "Dev Camper Backend API",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server",
+    "start": "cross-env NODE_ENV=production node server",
     "dev": "nodemon server"
   },
   "author": "Gabriele Falloon",
@@ -14,6 +14,7 @@
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
+    "cross-env": "^10.1.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "express-fileupload": "^1.5.2",
