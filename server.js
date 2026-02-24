@@ -1,20 +1,24 @@
-const path = require('path');
 const express = require('express');
+const path = require('path');
+
 const dotenv = require('dotenv');
 const morgan = require('morgan');
 const colors = require('colors');
 const fileupload = require('express-fileupload');
 const cookieParser = require('cookie-parser');
-const mongoSanitize = require('express-mongo-sanitize');
+// const mongoSanitize = require('express-mongo-sanitize');
+const mongoSanitize = require('mongo-sanitize');
+
 const helmet = require('helmet');
-const xss = require('xss-clean');
+// const xss = require('xss-clean');
 const rateLimit = require('express-rate-limit');
-const hpp = requie('hpp');
-const cors = requie('cors');
+const hpp = require('hpp');
+const cors = require('cors');
 
 const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
 
+const app = express();
 
 // Load env vars
 dotenv.config({ path: './config/config.env' });
@@ -28,8 +32,6 @@ const courses = require('./routes/courses');
 const auth = require('./routes/auth');
 const users = require('./routes/users');
 const reviews = require('./routes/reviews');
-
-const app = express();
 
 app.set('query parser', 'extended');
 
@@ -48,13 +50,22 @@ if (process.env.NODE_ENV === 'development') {
 app.use(fileupload());
 
 // Santize data
-app.use(mongoSanitize());
+// app.use(mongoSanitize());
+app.use((req, res, next) => {
+    if (req.body) req.body = mongoSanitize(req.body);
+    if (req.params) req.params = mongoSanitize(req.params);
+  
+    // DO NOT assign to req.query
+    // Instead sanitize individual properties if needed
+  
+    next();
+  });
 
 // Set security headers
 app.use(helmet());
 
 // Prevent cross site sripting attacks
-app.use(xss());
+// app.use(xss());
 
 // Rate Limiting
 const limiter = rateLimit({
