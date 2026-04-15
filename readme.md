@@ -2,6 +2,8 @@
 
 > Back API for DevCamper application,
 > which is a bootcamp directory website
+> 
+> :warning: This project is not currently deployed due to production configuration issues. The codebase is complete and demonstrates API design, structure and configuration patterns.
 
 ## Usage
 
